@@ -1,0 +1,10 @@
+{
+	"name":"angular_node_mongo",
+	"version":"0.0.1",
+	"description":"Simple Angular with node based in MEAN stack",
+	"main":"server.js",
+	"dependencies":{
+		"express":"~3.x",
+		"mongoose":"latest"
+	}
+}
