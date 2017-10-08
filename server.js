@@ -26,6 +26,11 @@ app.configure(function() {
 	app.use(express.methodOverride());
 });
 
+//Definicion de modelos
+var Todo = mongoose.model('Todo', {
+	text:String
+});
+
 //escucha en el puerto 8080 y corre el server
 app.listen(8080, function() {
 	console.log('App linstening on port 8080');
