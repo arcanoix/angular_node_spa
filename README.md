@@ -1,1 +1,1 @@
-Proyecto practica Angular con Nodejs realizando una single page application
+Proyecto practica Angular para crear una Single Page Application, y como conectarla a una API REST construida con NodeJS y Mongo como base de datos.
